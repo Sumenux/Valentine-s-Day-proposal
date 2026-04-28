@@ -6,12 +6,12 @@ function moveRandomEl(elm) {
 
 const moveRandom = document.querySelector("#move-random");
 
-//souris
+//mouse
 moveRandom.addEventListener("mouseenter", function (e) {
   moveRandomEl(e.target);
 });
 
-//tactile
+//touchscreen
 moveRandom.addEventListener("touchstart", function (e) {
   moveRandomEl(e.target);
 });
